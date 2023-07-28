@@ -1,0 +1,146 @@
+.button1 {
+    border: 3px solid black;
+}
+
+.button1:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.button2 {
+    border: 3px solid black;
+    position: relative;
+    left: 75%
+}
+
+.button2:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.navigation ul {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    margin-top: 10px;
+    margin-left: 0;
+    list-style-type: none;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.navigation li{
+    display: inline-block;
+    font-size: 15px;
+    width: 180px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-around;
+}
+
+.navigation li:hover {
+    cursor: pointer;
+    color: purple;
+}
+
+.header {
+    border: 3px solid black;
+    font-size: 25px;
+    font-style: bold;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.mid-section {
+    margin-left: 50%;
+}
+
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 5px;
+    text-align: right;
+    text-decoration: none;
+    float: right;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.img {
+    margin-left: 15%;
+    margin-right: 10%;
+    height: 300px;
+    width: 500px;
+    border: 3px solid black;
+    display: center;
+}
+
+p {
+    font-style: bold;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+a:hover {
+    color: #6e31ff;
+}
+
+.more_info {
+    border: 3px solid black;
+
+}
+
+.more_info li {
+    list-style: none;
+    width: 250px;
+
+}
+
+.ul1 li {
+   background-color: aqua;
+   position: relative;
+   top: 10px;
+   width: 250px;
+}
+
+.recursive {
+    position: relative;
+    left: 350px;
+    bottom: 150px
+}
+
+.ul2 li {
+    position: relative;
+    background-color: #6e31ff;
+    left: 350px;
+    bottom: 140px;
+}
+
+.logo {
+    margin-top: 50px;
+    padding: 10px;
+    height: 30px;
+    width: 130px;
+    border: 3px solid black;
+}
+
+.end_page{
+    display: inline-block;
+
+}
+
+.end_page li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    left: 75%;
+    padding: 10px;
+}
+
+.end_page li:hover {
+    color: green;
+    cursor: pointer;
+}
